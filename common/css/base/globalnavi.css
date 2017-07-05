@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* =======================================
+
+	Globalnavi CSS
+
+========================================== */
+
+ul#globalnavi {
+	zoom: 1;
+}
+ul#globalnavi:after { /* for Modern Browser */
+	content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
+}
+
+ul#globalnavi li {
+	float: left;
+	display: inline;
+}
+ul#globalnavi li.item01 {width: 130px;}
+ul#globalnavi li.item02 {width: 150px;}
+ul#globalnavi li.item03 {width: 150px;}
+ul#globalnavi li.item04 {width: 150px;}
+ul#globalnavi li.item05 {width: 150px;}
+ul#globalnavi li.item06 {width: 150px;}
+
+ul#globalnavi li a {
+	display: block;
+	background: #FFF;
+}
+
+
+
+ul#globalnavi li a:hover img {filter: alpha(opacity=100);opacity:1;background: #fff;}

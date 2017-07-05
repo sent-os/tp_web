@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* =======================================
+
+	Text Decorations CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+ 	1.Titles
+	
+	2.Prain Text Decorations
+	
+	3.Topicpath
+
+========================================== */
+
+/* 1.Titles
+========================================== */
+#contents h2 {
+	font-weight: bold;
+}
+
+
+#contents h3 {
+	margin: 0 0 5px;
+	font-weight: bold;
+	line-height: 1.286;
+}
+
+#contents h4,
+#contents h5,
+#contents h6 {
+	margin: 0 0 3px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+
+/* 2.Prain Text Decorations
+========================================== */
+#contents p, #contents address, #contents th, #contents td {
+}
+
+#contents li, #contents dt, #contents dd {
+}
+
+/* Inner Reset  */
+#contents th p, #contents th li, #contents th dt, #contents th dd,
+#contents td p, #contents td li, #contents td dt, #contents td dd,
+#contents li p, #contents li li, #contents li dt, #contents li dd,
+#contents dt p, #contents dt li, #contents dt dt, #contents dt dd,
+#contents dd p, #contents dd li, #contents dd dt, #contents dd dd {
+}
+
+#contents strong {
+	font-weight: bold;
+}
+
+#contents em {
+	font-style: italic;
+}
+
+#contents .section {
+	margin: 20px 0 20px;
+}
+
+#contents p, #contents ul, #contents dl, #contents table {
+}
+
+#contents a {
+	color: #666; /* #0033FF */
+	text-decoration: underline;
+}
+
+#contents a:hover {
+	text-decoration: none;
+}
+
+
+/* 3.Topicpath
+========================================== */
+#contents	p.topicpath {
+	margin: 0 10px 17px;
+	font-size: 92.4%;
+	line-height: 1.335;
+}
+
+#contents	p.topicpath a {
+}
+
+.pagetop {
+	text-align:right;
+	padding:0 0 20px;
+}
+
+#pan {
+	padding-top:5px;
+}
+
+#pan a:link,a:active,a:visited,a:hover {
+	color:#666;
+	text-decoration:underline;
+}
+
+#pan a:hover {
+	text-decoration:none;
+}

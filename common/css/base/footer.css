@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* =======================================
+
+	Footer CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+	1.Footer Navi
+	
+	2.CorpName
+	
+	3.Copyright
+
+========================================== */
+
+#footer {
+	padding: 12px 10px 20px;
+	zoom: 1;
+}
+
+#footer_area {
+	margin: 0 auto;
+	min-width:300px;
+	text-align:center;
+	color:#666;
+}
+
+
+/* 1.Footer Navi
+========================================== */
+#footer #footer_area ul#footerNavi {
+	margin: 0 0 20px 0;
+	zoom: 1;
+	color:#666;
+}
+#footer #footer_area ul#footerNavi:after { /* for Modern Browser */
+	content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
+}
+
+#footer #footer_area ul#footerNavi li {
+	float: left;
+	display: block;
+	margin: 0 0 4px 10px;
+	padding: 0 0 0 6px;
+	font-size: 100%;
+	line-height: 1.167;
+	white-space: nowrap;
+}
+
+#footer #footer_area p {
+	text-align:center;
+	font-size: 100%;
+	color:#666;
+}
+
+#footer #footer_area p a {
+	font-size: 100%;
+	color:#666;
+	padding:15px;
+}
+
+#footer #footer_area ul#footerNavi li.first {
+	margin-left: 5px;
+	padding-left: 0;
+	border-left: none;
+}
+
+#footer #footer_area ul#footerNavi li a {
+	color: #666;
+	text-decoration: none;
+	font-size: 100%;
+	line-height: 1.167;
+}
+
+#footer #footer_area ul#footerNavi li a:hover {
+	text-decoration: none;
+}
+
+
+/* 2.Copyright
+========================================== */
+#footer #footer_area div#add {
+	margin-left:550px;
+	margin-top:-35px;
+	padding-bottom:10px;
+	font-size:110%;
+}
+
+#footer #footer_area div#add a,a:visited,a:link,a:active,a:hover {
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+
+#FILENAME #footer #copyright {
+	clear:both;
+	margin-top:20px;
+	padding-bottom:10px;
+	color:#333;
+	text-align: center;
+}

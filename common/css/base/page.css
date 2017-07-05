@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* =======================================
+
+	page CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+	1.concept
+	
+	2.CorpName
+	
+	3.Copyright
+
+========================================== */
+
+
+/* 1.reform
+========================================== */
+
+#orderArea { width:680px;}
+#orderArea ul { width:680px;}
+#orderArea ul li { float:left; width:172px; width:164px !important; height:60px; margin-right:8px;}
+#orderArea ul li.last { width:164px; margin-right:0;}
+
+
+#orderArea:after,
+#orderFlow dl:after,
+#orderFaq dl:after { /* for Modern Browser */
+	content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
+}
+
+div.order h2  {padding:50px 0 10px 0}
+div.order p  {padding:10px 10px 10px 20px;; font-size:120%; line-height:160%;}
+
+#orderFlow {width:680px;}
+#orderFlow dl dt {width:240px; float:left;}
+#orderFlow dl dd {width:420px; float:right; font-size:120%; line-height:160%;}
+div.orderFlowBull { clear:both;}
+div.orderFlowBull img { padding:10px 10px 10px 45px;}
+
+#orderFaq h3 { clear:both; padding-left:25px;}
+#orderFaq dl {width:680px;}
+#orderFaq dl dt {width:50px; float:left; height:50x;}
+#orderFaq dl dt img { margin:10px 10px 10px 50px;}
+#orderFaq dl dd {width:600px; float:right; font-size:110%; margin-bottom:20px;}
+
+
+
+.sideAccess {
+	width:160px !important; 
+	width:160px;
+	margin-top:40px;
+	background:url(../../img/officeBgSide.gif) top no-repeat;
+}
+
+.sideAccessbg {
+	width:160px !important; 
+	width:160px;
+	background:url(../../img/officeBgbtm.gif) bottom no-repeat;
+}
+
+.sideAccessbg .officeAdSide {
+	padding:10px 0 5px;
+	margin-bottom:5px;
+	font-size:120%;
+	background:url(../../img/gray_dot.gif) repeat-x bottom;
+}
+
+.sideAccessbg dl {
+	padding:15px;
+}
+
+
+/* 1.petit
+========================================== */
+
+div.petit h2  {padding:50px 0 10px 0; clear:both;}
+div.petit p  {padding:10px 10px 10px 20px;; font-size:120%; line-height:160%;}
+
+
+#petitCont {width:520px;}
+#petitCont dl dt {width:320px; float:left; margin-bottom:20px;}
+#petitCont dl dd {width:170px; float:right; font-size:120%; line-height:160%;}
+#petitCont dl dd img { padding-top:10px;}
+
+
+#petitFaq h3 { clear:both; padding-left:25px;}
+#petitFaq dl {width:680px;}
+#petitFaq dl dt {width:50px; float:left; height:50x;}
+#petitFaq dl dt img { margin:10px 10px 10px 50px;}
+#petitFaq dl dd {width:600px; float:right; font-size:110%; margin-bottom:20px;}
+
+
+#petitCont:after,
+#petitCont dl:after { /* for Modern Browser */
+	content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
+}

@@ -1,0 +1,1014 @@
+@charset "UTF-8";
+/* line 8, ../scss/temp.scss */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 12, ../scss/temp.scss */
+li {
+  list-style: none;
+}
+
+/* line 17, ../scss/temp.scss */
+body {
+  background: url(../img/dot.gif) top left;
+}
+
+/* line 22, ../scss/temp.scss */
+body#top {
+  background: none;
+}
+
+/* line 25, ../scss/temp.scss */
+.wrap {
+  z-index: 10;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 32, ../scss/temp.scss */
+h2 {
+  text-align: center;
+}
+
+/* line 35, ../scss/temp.scss */
+h3 {
+  text-align: center;
+}
+
+/* line 38, ../scss/temp.scss */
+h6 {
+  font-size: 129%;
+  color: #ef8585;
+}
+
+/* line 44, ../scss/temp.scss */
+#mg_box {
+  width: 950px;
+  height: 85px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* line 50, ../scss/temp.scss */
+.s1 {
+  padding-top: 60px;
+}
+
+/* line 53, ../scss/temp.scss */
+.s2 {
+  padding-top: 60px;
+}
+
+/* line 56, ../scss/temp.scss */
+.s3 {
+  padding-top: 60px;
+}
+
+/*
+===================================================================
+header
+===================================================================
+*/
+/* line 65, ../scss/temp.scss */
+#header_wrap {
+  background: #fff;
+}
+/* line 67, ../scss/temp.scss */
+#header_wrap #header {
+  position: relative;
+  width: 950px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 43px;
+  background: #fff;
+}
+/* line 74, ../scss/temp.scss */
+#header_wrap #header .fb-like {
+  position: absolute;
+  top: 29px;
+  right: 25px;
+}
+/* line 79, ../scss/temp.scss */
+#header_wrap #header ol {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+/* line 83, ../scss/temp.scss */
+#header_wrap #header ol li {
+  float: left;
+  margin-left: 10px;
+}
+/* line 88, ../scss/temp.scss */
+#header_wrap #header h1 {
+  width: 950px;
+  margin-bottom: 38px;
+  display: block;
+}
+/* line 93, ../scss/temp.scss */
+#header_wrap #header .section {
+  width: 100%;
+  max-width: 1600px;
+  min-width: 950px;
+  z-index: 10;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 104, ../scss/temp.scss */
+body#top #header_wrap #header .section {
+  padding: 0;
+}
+
+/*menu*/
+/* line 111, ../scss/temp.scss */
+nav {
+  width: 688px;
+}
+/* line 113, ../scss/temp.scss */
+nav li {
+  display: inline-block;
+  margin-left: 2px;
+  padding: 3px;
+  background: #eee;
+}
+/* line 118, ../scss/temp.scss */
+nav li a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 123, ../scss/temp.scss */
+nav span {
+  background: url(../img/menu_bg.gif) no-repeat left;
+  height: 9px;
+  display: block;
+  position: relative;
+  width: 145px;
+  left: 0;
+}
+
+/* Example One */
+/* line 135, ../scss/temp.scss */
+#example-one {
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+  width: 950px;
+}
+/* line 140, ../scss/temp.scss */
+#example-one li {
+  display: inline-block;
+  margin-right: 19px;
+}
+/* line 143, ../scss/temp.scss */
+#example-one li a {
+  float: left;
+  padding: 6px 0px 0px 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 149, ../scss/temp.scss */
+#example-one li a:hover {
+  color: white;
+}
+/* line 153, ../scss/temp.scss */
+#example-one li.lastChild {
+  margin-right: 0;
+}
+/* line 156, ../scss/temp.scss */
+#example-one #toplink {
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+/* line 162, ../scss/temp.scss */
+body#top #example-one {
+  padding-left: 0;
+}
+
+/* line 165, ../scss/temp.scss */
+#magic-line {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100px;
+  height: 9px;
+  background: url(/_shared/img/menu_bg.gif);
+}
+
+/* line 173, ../scss/temp.scss */
+.current_page_item a {
+  color: white !important;
+}
+
+/* line 176, ../scss/temp.scss */
+.ie6 #example-one li, .ie7 #example-one li {
+  display: inline;
+}
+
+/* line 179, ../scss/temp.scss */
+.ie6 #magic-line {
+  bottom: -3px;
+}
+
+/*
+===================================================================
+トップページ
+===================================================================
+*/
+/* line 193, ../scss/temp.scss */
+#top_contents {
+  background: #fff;
+}
+/* line 195, ../scss/temp.scss */
+#top_contents #contents {
+  padding-top: 40px;
+  width: 840px;
+}
+/* line 198, ../scss/temp.scss */
+#top_contents #contents ul#top_menu {
+  margin-bottom: 45px;
+  background: url(../../img/top_menu_bg.gif) repeat-y left top;
+}
+/* line 201, ../scss/temp.scss */
+#top_contents #contents ul#top_menu li {
+  float: left;
+  padding-left: 1px;
+}
+/* line 209, ../scss/temp.scss */
+#top_contents #top_left {
+  float: left;
+  width: 522px;
+  padding-left: 25px;
+  padding-right: 15px;
+  margin-bottom: 50px;
+}
+/* line 216, ../scss/temp.scss */
+#top_contents #top_left .scroll-pane {
+  width: 522px;
+  height: 300px;
+  overflow: auto;
+}
+/* line 221, ../scss/temp.scss */
+#top_contents #top_left .scroll-pane dl {
+  width: 500px;
+}
+/* line 224, ../scss/temp.scss */
+#top_contents #top_left .scroll-pane dt {
+  float: left;
+  clear: left;
+  width: 80px;
+  margin-bottom: 22px;
+  line-height: 1.6em;
+}
+/* line 231, ../scss/temp.scss */
+#top_contents #top_left .scroll-pane dd {
+  padding-left: 10px;
+  float: left;
+  width: 410px;
+  margin-bottom: 22px;
+  line-height: 1.6em;
+}
+/* line 237, ../scss/temp.scss */
+#top_contents #top_left .scroll-pane dd a {
+  color: #595757;
+}
+/* line 243, ../scss/temp.scss */
+#top_contents #top_right {
+  float: right;
+  width: 225px;
+  margin-bottom: 50px;
+  padding-left: 18px;
+  padding-right: 34px;
+}
+/* line 249, ../scss/temp.scss */
+#top_contents #top_right #fb_box {
+  border: 1px solid #ef8585;
+  width: 225px;
+  margin-bottom: 10px;
+}
+/* line 255, ../scss/temp.scss */
+#top_contents ul#sponsor {
+  width: 773px;
+  margin: 0 auto;
+  padding-right: 5px;
+}
+/* line 259, ../scss/temp.scss */
+#top_contents ul#sponsor li.ttl_sponsor {
+  margin-top: 0;
+}
+/* line 262, ../scss/temp.scss */
+#top_contents ul#sponsor li {
+  float: left;
+  margin-right: 14px;
+  margin-top: 19px;
+}
+/* line 267, ../scss/temp.scss */
+#top_contents ul#sponsor li.umano {
+  margin-top: 9px;
+}
+/* line 270, ../scss/temp.scss */
+#top_contents ul#sponsor li.lastChild {
+  margin-right: 0;
+}
+
+
+/*
+===================================================================
+contents
+===================================================================
+*/
+/* line 289, ../scss/temp.scss */
+#contents {
+  width: 950px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  background: url(../img/foot_line.gif) no-repeat bottom center white;
+}
+
+/*プロモーション------------------------------------------*/
+/* line 298, ../scss/temp.scss */
+#promotion_wrap {
+  background: #fff;
+  width: 950px;
+  height: 405px;
+  margin: 0 auto;
+}
+/* line 303, ../scss/temp.scss */
+#promotion_wrap #promotion {
+  width: 950px;
+  margin: 0 auto;
+  background: #fff;
+}
+/* line 307, ../scss/temp.scss */
+#promotion_wrap #promotion #owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*コンテンツ内------------------------------------------*/
+/*ローカルメニュー------------------------------------------*/
+/* line 321, ../scss/temp.scss */
+.inner a.subNavBtn {
+  background: url(../img/menu_local.gif) no-repeat;
+  display: block;
+  height: 30px;
+  float: left;
+  margin: 0px;
+  text-align: center;
+  text-indent: -9999px;
+  border-right: 1px solid #f4afb3;
+}
+
+/* line 332, ../scss/temp.scss */
+.local_about {
+  width: 950px;
+  margin: 0 auto;
+}
+/* line 335, ../scss/temp.scss */
+.local_about ul {
+  padding-left: 128px;
+}
+/* line 338, ../scss/temp.scss */
+.local_about #sTop {
+  display: none;
+}
+/* line 341, ../scss/temp.scss */
+.local_about #s1 {
+  border-left: 1px solid #f4afb3;
+  width: 174px;
+  background-position: 0px 0px;
+}
+/* line 346, ../scss/temp.scss */
+.local_about #s2 {
+  width: 174px;
+  background-position: -174px 0px;
+}
+/* line 350, ../scss/temp.scss */
+.local_about #s3 {
+  width: 174px;
+  background-position: -348px 0px;
+}
+/* line 354, ../scss/temp.scss */
+.local_about #s4 {
+  width: 166px;
+  background-position: -522px 0px;
+}
+/* line 358, ../scss/temp.scss */
+.local_about #s1:hover {
+  background-position: 0px -30px;
+}
+/* line 361, ../scss/temp.scss */
+.local_about #s2:hover {
+  background-position: -174px -30px;
+}
+/* line 364, ../scss/temp.scss */
+.local_about #s3:hover {
+  background-position: -348px -30px;
+}
+/* line 367, ../scss/temp.scss */
+.local_about #s4:hover {
+  background-position: -522px -30px;
+}
+/* line 370, ../scss/temp.scss */
+.local_about li#s1_li .active {
+  background-position: 0px -30px;
+}
+/* line 373, ../scss/temp.scss */
+.local_about li#s2_li .active {
+  background-position: -174px -30px;
+}
+/* line 376, ../scss/temp.scss */
+.local_about li#s3_li .active {
+  background-position: -348px -30px;
+}
+/* line 379, ../scss/temp.scss */
+.local_about li#s4_li .active {
+  background-position: -522px -30px;
+}
+
+/* line 383, ../scss/temp.scss */
+.local_activity {
+  width: 950px;
+  margin: 0 auto;
+}
+/* line 386, ../scss/temp.scss */
+.local_activity ul {
+  padding-left: 212px;
+}
+/* line 389, ../scss/temp.scss */
+.local_activity #sTop {
+  display: none;
+}
+/* line 392, ../scss/temp.scss */
+.local_activity #s4 {
+  border-left: 1px solid #f4afb3;
+  width: 174px;
+  background-position: 0px -60px;
+}
+/* line 397, ../scss/temp.scss */
+.local_activity #s5 {
+  width: 174px;
+  background-position: -174px -60px;
+}
+/* line 401, ../scss/temp.scss */
+.local_activity #s3 {
+  width: 174px;
+  background-position: -348px -60px;
+}
+/* line 405, ../scss/temp.scss */
+.local_activity #s4:hover {
+  background-position: 0px -90px;
+}
+/* line 408, ../scss/temp.scss */
+.local_activity #s5:hover {
+  background-position: -174px -90px;
+}
+/* line 411, ../scss/temp.scss */
+.local_activity #s3:hover {
+  background-position: -348px -90px;
+}
+/* line 414, ../scss/temp.scss */
+.local_activity li#s4_li .active {
+  background-position: 0px -90px;
+}
+/* line 417, ../scss/temp.scss */
+.local_activity li#s5_li .active {
+  background-position: -174px -90px;
+}
+/* line 420, ../scss/temp.scss */
+.local_activity li#s3_li .active {
+  background-position: -348px -90px;
+}
+
+/* line 425, ../scss/temp.scss */
+.local_medical {
+  width: 607px;
+  width: 950px;
+  margin: 0 auto;
+}
+/* line 429, ../scss/temp.scss */
+.local_medical ul {
+  padding-left: 171px;
+}
+/* line 432, ../scss/temp.scss */
+.local_medical #sTop {
+  display: none;
+}
+/* line 435, ../scss/temp.scss */
+.local_medical #s1 {
+  border-left: 1px solid #f4afb3;
+  width: 201px;
+  background-position: 0px -120px;
+}
+/* line 440, ../scss/temp.scss */
+.local_medical #s2 {
+  width: 203px;
+  background-position: -201px -120px;
+}
+/* line 444, ../scss/temp.scss */
+.local_medical #s3 {
+  width: 199px;
+  background-position: -404px -120px;
+}
+/* line 448, ../scss/temp.scss */
+.local_medical #s1:hover {
+  background-position: 0px -150px;
+}
+/* line 451, ../scss/temp.scss */
+.local_medical #s2:hover {
+  background-position: -201px -150px;
+}
+/* line 454, ../scss/temp.scss */
+.local_medical #s3:hover {
+  background-position: -404px -150px;
+}
+/* line 457, ../scss/temp.scss */
+.local_medical li#s1_li .active {
+  background-position: 0px -150px;
+}
+/* line 460, ../scss/temp.scss */
+.local_medical li#s2_li .active {
+  background-position: -201px -150px;
+}
+/* line 463, ../scss/temp.scss */
+.local_medical li#s3_li .active {
+  background-position: -404px -150px;
+}
+
+/* line 468, ../scss/temp.scss */
+.subMenu .local_medical li#s3_li .active_message {
+  background-position: -404px -150px;
+}
+
+/*aboutus------------------------------------------*/
+/* line 473, ../scss/temp.scss */
+#aboutus02, #aboutus03 {
+  width: 688px;
+  margin: 0 auto;
+}
+
+/* line 479, ../scss/temp.scss */
+table.profile_table {
+  margin-bottom: 75px;
+}
+/* line 481, ../scss/temp.scss */
+table.profile_table th {
+  vertical-align: top;
+}
+/* line 484, ../scss/temp.scss */
+table.profile_table td {
+  padding-left: 26px;
+}
+
+/* line 488, ../scss/temp.scss */
+#aboutus03 dl {
+  width: 688px;
+  margin-bottom: 20px;
+}
+/* line 491, ../scss/temp.scss */
+#aboutus03 dl dt {
+  float: left;
+  clear: left;
+  width: 88px;
+  margin-bottom: 16px;
+}
+/* line 497, ../scss/temp.scss */
+#aboutus03 dl dd {
+  float: left;
+  width: 600px;
+  margin-bottom: 16px;
+}
+
+/*3つの活動------------------------------------------*/
+/* line 509, ../scss/temp.scss */
+#activity01, #activity03 {
+  width: 688px;
+  margin: 0 auto;
+}
+/* line 512, ../scss/temp.scss */
+#activity01 #kaigi, #activity03 #kaigi {
+  margin-bottom: 25px;
+}
+/* line 515, ../scss/temp.scss */
+#activity01 .kaigi_l, #activity03 .kaigi_l {
+  float: left;
+  width: 441px;
+  padding-right: 23px;
+}
+/* line 520, ../scss/temp.scss */
+#activity01 .kaigi_r, #activity03 .kaigi_r {
+  float: right;
+  width: 224px;
+}
+/* line 524, ../scss/temp.scss */
+#activity01 table#jikai, #activity03 table#jikai {
+  background: url(../../activity/img/next_middle.gif) repeat-y;
+  margin-bottom: 20px;
+}
+/* line 527, ../scss/temp.scss */
+#activity01 table#jikai td, #activity03 table#jikai td {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* line 531, ../scss/temp.scss */
+#activity01 table#jikai td.lastChild, #activity03 table#jikai td.lastChild {
+  padding-left: 0;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+/* line 537, ../scss/temp.scss */
+#activity01 table#jikai td p.nitiji, #activity03 table#jikai td p.nitiji {
+  margin-top: 25px;
+  background: url(../../activity/img/tabledot.gif) repeat-y right;
+  padding-right: 20px;
+}
+
+/* line 546, ../scss/temp.scss */
+#activity02 {
+  width: 688px;
+  margin: 0 auto;
+}
+/* line 550, ../scss/temp.scss */
+#activity02 ul li {
+  width: 333px;
+  float: left;
+}
+/* line 554, ../scss/temp.scss */
+#activity02 ul li.firstChild {
+  padding-right: 6px;
+  border-right: dotted 1px #000;
+}
+/* line 559, ../scss/temp.scss */
+#activity02 ul li.lastChild {
+  padding-left: 15px;
+}
+
+/*検診にいこう------------------------------------------*/
+/* line 567, ../scss/temp.scss */
+#medical_wrap01 {
+  margin-top: 75px;
+}
+
+/* line 571, ../scss/temp.scss */
+#medical_wrap01, #medical_wrap02 {
+  width: 706px;
+  margin: 0 auto;
+}
+/* line 574, ../scss/temp.scss */
+#medical_wrap01 ul, #medical_wrap02 ul {
+  margin-bottom: 60px;
+}
+/* line 576, ../scss/temp.scss */
+#medical_wrap01 ul li, #medical_wrap02 ul li {
+  list-style: none;
+  text-indent: -1em;
+}
+
+/* line 582, ../scss/temp.scss */
+.pickup_wrap {
+  margin-bottom: 50px;
+}
+/* line 584, ../scss/temp.scss */
+.pickup_wrap img {
+  float: right;
+}
+/* line 587, ../scss/temp.scss */
+.pickup_wrap span {
+  color: #ef8585;
+}
+
+/* line 592, ../scss/temp.scss */
+.pink_txt {
+  color: #ef8585;
+}
+
+/*700万人検診にいこう------------------------------------------*/
+/* line 600, ../scss/temp.scss */
+#kanshin_wrap {
+  text-align: center;
+  position: relative;
+}
+/* line 603, ../scss/temp.scss */
+#kanshin_wrap h3 {
+  margin-bottom: 5px;
+}
+/* line 606, ../scss/temp.scss */
+#kanshin_wrap #sns_wrap {
+  position: absolute;
+  top: 5px;
+  right: 43px;
+}
+/* line 610, ../scss/temp.scss */
+#kanshin_wrap #sns_wrap .fb-like {
+  margin-right: 10px;
+}
+
+/* line 616, ../scss/temp.scss */
+#message_wrap {
+  width: 745px;
+  margin: 0 auto;
+  padding-left: 1px;
+  background: url(../img/message_box_bg.gif) repeat-y left top;
+}
+/* line 621, ../scss/temp.scss */
+#message_wrap .message_gyo {
+  background: url(../img/message_box_line.gif) no-repeat left bottom;
+  padding-bottom: 21px;
+  margin-bottom: 20px;
+}
+/* line 625, ../scss/temp.scss */
+#message_wrap .message_gyo .message_box {
+  width: 208px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+/* line 632, ../scss/temp.scss */
+#message_wrap .message_gyo .message_box .img_prof {
+  text-align: center;
+  margin-bottom: 16px;
+  height: 167px;
+  position: relative;
+}
+/* line 637, ../scss/temp.scss */
+#message_wrap .message_gyo .message_box .img_prof span {
+  position: absolute;
+  top: -10px;
+}
+/* line 642, ../scss/temp.scss */
+#message_wrap .message_gyo .message_box h5 {
+  text-align: center;
+  font-size: 122%;
+  color: #ef8585;
+  letter-spacing: 0.3em;
+}
+/* line 648, ../scss/temp.scss */
+#message_wrap .message_gyo .message_box span {
+  display: block;
+  text-align: center;
+  font-size: 92%;
+  line-height: 1.3em;
+  margin-bottom: 15px;
+  color: #ef8585;
+  letter-spacing: 0.3em;
+}
+/* line 657, ../scss/temp.scss */
+#message_wrap .message_gyo .message_box p {
+  line-height: 1.7em;
+}
+
+/* line 664, ../scss/temp.scss */
+p.message_txt {
+  margin: 20px auto;
+  width: 745px;
+  text-align: right;
+}
+
+/*啓発イベント------------------------------------------*/
+/* line 672, ../scss/temp.scss */
+#event_wrap {
+  width: 687px;
+  margin: 0 auto;
+}
+/* line 675, ../scss/temp.scss */
+#event_wrap h4 {
+  font-size: 136%;
+  color: #59c3e1;
+  text-align: center;
+}
+
+/* line 682, ../scss/temp.scss */
+.member_wrap {
+  width: 688px;
+}
+
+/* line 686, ../scss/temp.scss */
+.member_wrap_02 {
+  width: 516px;
+}
+
+/* line 689, ../scss/temp.scss */
+.member_wrap_single {
+  width: 172px;
+}
+
+/* line 693, ../scss/temp.scss */
+.even_table {
+  width: 597px;
+  margin: 40px auto 20px;
+}
+/* line 696, ../scss/temp.scss */
+.even_table th {
+  padding-right: 54px;
+  padding-bottom: 37px;
+}
+/* line 700, ../scss/temp.scss */
+.even_table td {
+  padding-bottom: 37px;
+}
+
+/* line 706, ../scss/temp.scss */
+#event_wrap #event_end_box {
+  border: #f4afb3 2px solid;
+  /* box-shadow */
+  box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 3px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 3px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 3px 0px;
+  padding: 45px 32px 30px 32px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+/* line 716, ../scss/temp.scss */
+#event_wrap .member_wrap_single_2014 {
+  text-align: center;
+}
+/* line 718, ../scss/temp.scss */
+#event_wrap .member_wrap_single_2014 li {
+  margin-bottom: 50px;
+}
+/* line 722, ../scss/temp.scss */
+#event_wrap .member_wrap, #event_wrap .member_wrap_02, #event_wrap .member_wrap_single {
+  margin: 0 auto;
+}
+/* line 725, ../scss/temp.scss */
+#event_wrap .member_wrap ul li, #event_wrap .member_wrap_02 ul li, #event_wrap .member_wrap_single ul li {
+  float: left;
+  width: 146px;
+  margin-left: 13px;
+  margin-right: 13px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 732, ../scss/temp.scss */
+#event_wrap .member_wrap ul li img, #event_wrap .member_wrap_02 ul li img, #event_wrap .member_wrap_single ul li img, #event_wrap .member_wrap_single_2014 ul li img {
+  margin-bottom: 15px;
+}
+/* line 735, ../scss/temp.scss */
+#event_wrap .member_wrap ul li p, #event_wrap .member_wrap_02 ul li p, #event_wrap .member_wrap_single ul li p {
+  font-size: 107%;
+}
+/* line 738, ../scss/temp.scss */
+#event_wrap .member_wrap ul li p.katagaki, #event_wrap .member_wrap_02 ul li p.katagaki, #event_wrap .member_wrap_single ul li p.katagaki {
+  font-size: 92%;
+  line-height: 1.5em;
+  margin-bottom: 0px;
+}
+/* line 747, ../scss/temp.scss */
+#event_wrap #event_sponsor p {
+  text-indent: -0.5em;
+}
+/* line 750, ../scss/temp.scss */
+#event_wrap #event_sponsor p.noindent {
+  text-indent: 0em;
+}
+
+/* line 757, ../scss/temp.scss */
+ul#event_bnr_wrap01 {
+  margin-bottom: 14px;
+}
+
+/* line 760, ../scss/temp.scss */
+ul#event_bnr_wrap02 {
+  margin-bottom: 4px;
+}
+
+/* line 763, ../scss/temp.scss */
+ul#event_bnr_wrap03 {
+  margin-bottom: 25px;
+}
+
+/* line 770, ../scss/temp.scss */
+ul#event_bnr_wrap01 li,
+ul#event_bnr_wrap02 li,
+ul#event_bnr_wrap03 li {
+  float: left;
+}
+
+/* line 774, ../scss/temp.scss */
+p.koen a {
+  color: #595757;
+}
+
+/* line 778, ../scss/temp.scss */
+p.koen a:hover {
+  text-decoration: none;
+}
+
+/*入会について------------------------------------------*/
+/* line 786, ../scss/temp.scss */
+.nyuukai img {
+  float: right;
+  vertical-align: bottom;
+}
+/* line 790, ../scss/temp.scss */
+.nyuukai span {
+  color: #ef8585;
+  border-bottom: 1px dotted #ef8585;
+}
+/* line 794, ../scss/temp.scss */
+.nyuukai table {
+  width: 638px;
+}
+
+/* line 798, ../scss/temp.scss */
+#addmission_wrap {
+  width: 638px;
+  margin: 0 auto;
+}
+
+/*プライバシーポリシー	------------------------------------------*/
+/* line 804, ../scss/temp.scss */
+#privacy_wrap {
+  margin: 0 auto;
+  width: 694px;
+}
+/* line 807, ../scss/temp.scss */
+#privacy_wrap h3 {
+  margin-bottom: 70px;
+}
+/* line 810, ../scss/temp.scss */
+#privacy_wrap h4 {
+  color: #ef8585;
+  margin-bottom: 5px;
+}
+
+/*トップに戻る------------------------------------------*/
+/* SNSタブ------------------------------------------*/
+/*
+===================================================================
+footer
+===================================================================
+*/
+/* line 832, ../scss/temp.scss */
+#footer_wrap {
+  background: #fff;
+}
+/* line 834, ../scss/temp.scss */
+#footer_wrap #footer {
+  width: 940px;
+  background: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+/* line 840, ../scss/temp.scss */
+#footer_wrap #footer ul {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  list-style: none outside none;
+  float: left;
+  padding: 0;
+  position: relative;
+  left: 50%;
+}
+/* line 848, ../scss/temp.scss */
+#footer_wrap #footer ul li {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  font-size: 92%;
+  left: -50%;
+}
+/* line 855, ../scss/temp.scss */
+#footer_wrap #footer ul li a {
+  color: #595757;
+}
+/* line 860, ../scss/temp.scss */
+#footer_wrap #footer p.copy {
+  text-align: center;
+  font-size: 77%;
+  margin-bottom: 40px;
+}
+
+/*
+===================================================================
+おまけ
+===================================================================
+*/
+/* line 890, ../scss/temp.scss */
+#page-top {
+  bottom: 20px;
+  font-size: 77%;
+  position: fixed;
+  right: 100px;
+  z-index: 10000;
+}
+/* line 896, ../scss/temp.scss */
+#page-top a {
+  text-align: center;
+  text-decoration: none;
+}
+/* line 900, ../scss/temp.scss */
+#page-top a img {
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  -ms-filter: "alpha( opacity=20 )";
+}

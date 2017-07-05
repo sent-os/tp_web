@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* =======================================
+
+	Structure CSS
+
+========================================== */
+
+html, body {
+	color: #666; font-size:10px; line-height:140%;
+}
+
+body {
+	background: url(../../img/bg.gif) no-repeat top;
+}
+
+#document {
+	margin: 0 auto;
+	width: 880px;
+}
+
+#header,
+ul#globalnavi,
+#mainVisual {
+	background: none;
+}
+
+#mainVisual {
+	margin:0 0 0;
+}
+
+#contents {
+	float: left;
+	display: inline;
+	margin:0;
+	width: 660px;
+	margin-bottom:30px;
+}
+
+#navigation {
+	float: right;
+	display: inline;
+	width: 200px;
+}
+
+#footer {
+	clear: both;
+}
+
+a:hover img {filter: alpha(opacity=50);opacity:0.5;background: #fff;}

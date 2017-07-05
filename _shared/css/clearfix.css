@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/*クリアフィックス*/
+.clearfix:after {clear:both; content:"."; display:block; height:0; visibility:hidden;}
+.clearfix {min-height:1px;}
+* html .clearfix {height:1px;}
+/*DW用おまじない*/
+.clearfix + * {clear: both;}

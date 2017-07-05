@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* CSS Document */
+/* =====================================================================*
+*    INDEX*
+*    1. Yahoo UI Library Reset CSS
+*    2. Basic Format
+*    3. Yahoo UI Library Fonts CSS
+*    4. Basic Font Format
+*    5. Basic Hyperlink Format
+*
+* =================================================================== */
+/* =====================================================================
+*
+*    1. Yahoo UI Library Reset CSS
+*    Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+*    Code licensed under the BSD License:
+*    http://developer.yahoo.net/yui/license.txt
+*    version: 2.3.1
+*
+* =================================================================== */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0;
+	margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing:0;
+}
+fieldset, img {
+	border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+li {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+input, textarea, select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+
+
+
+
+
+/* =====================================================================
+*
+*    2. Basic Format*
+* 
+=================================================================== */
+* {
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+hr {
+	display:none;
+}
+form {
+	margin:0;
+	padding:0;
+}
+input, textarea {
+	font-family: Arial, Helvetica, sans-serif;
+}
+input {
+	line-height: 1.2;
+}
+textarea {
+	padding: 0.4em 10px;
+}
+img {
+	vertical-align: bottom;
+}
+p {
+	line-height: 186%;
+	font-size: 100%;
+}
+abbr {
+	border: none;
+}
+/* =====================================================================
+**    3. Yahoo UI Library Fonts CSS
+*    http://developer.yahoo.com/yui/fonts/
+*    *Copyright (c) 2006, Yahoo! Inc. All rights reserved.
+*    *http://developer.yahoo.com/yui/license.txt
+*    
+*    Font-size Adjustment
+*    
+*    77% = 10px	|	122% = 16px	|	167% = 22px	
+*    85% = 11px	|	129% = 17px	|	174% = 23px
+*    92% = 12px	|	136% = 18px	|	182% = 24px
+*    100% = 13px	|	144% = 19px	|	189% = 25px
+*    107% = 14px	|	152% = 20px	|	197% = 26px
+*    114% = 15px	|	159% = 21px	|
+*
+* =================================================================== */
+
+
+
+body {
+	font-size: 13px;
+ *font-size: small;/* for IE */
+ *font: x-small;/* for IE in quirks mode */
+color: #595757;
+}
+table {
+	font-size: inherit;
+	font: 100%;
+}
+select, input, textarea {
+	font-size: 99%;
+}
+/* =====================================================================
+*
+*    4. Basic Font Format
+*
+* =================================================================== */
+/* ---------------------------------
+*    Font Family
+*/
+body {
+	font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "ＭＳ Ｐ明朝", "Times", "Times New Roman", serif ;
+}
+
+
+
+body {
+	font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "ＭＳ Ｐ明朝", "Times", "Times New Roman", serif ;
+}
+*:first-child+html body {
+	font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "ＭＳ Ｐ明朝", "Times", "Times New Roman", serif ;
+
+}
+* html body {
+	font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "ＭＳ Ｐ明朝", "Times", "Times New Roman", serif ;
+
+}
+
+
+#footer_wrap,.goth{
+font-family: "Lucida Grande","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS P Gothic",sans-serif;
+}
+
+/*
+body {font-family:Georgia,"MS Mincho" ,HeiseiMincho, "Hiragino Mincho W3", serif;}
+*/
+/* ---------------------------------
+*    Font Size
+*/
+.x-large {
+	font-size: 174%;
+}
+.large {
+	font-size: 129%;
+}
+.mid {
+	font-size: 114%;
+}
+.small {
+	font-size:  92%;
+}
+.x-small {
+	font-size:  77%;
+	letter-spacing: 1px;
+}
+/* =====================================================================
+*
+*    5. Basic Hyperlink Format
+*
+* =================================================================== */
+/* \*/ a {
+	outline:none;
+	overflow:hidden;
+} /**/
+/* \*/ a:focus {
+	outline:none;
+	overflow:hidden;
+} /**/
+a {
+color: #EF8585;
+	text-decoration: none;
+
+}
+a:visited {
+color: #EF8585;
+	text-decoration: bold;
+}
+a:hover {
+color: #EF8585;
+	text-decoration:underline;
+}
+a:active {
+color: #EF8585;
+	text-decoration: bold;
+}
+a.altText:hover {
+	background-color: transparent;
+}
+/*選択テキストの色変更モジラ独自*/
+::-moz-selection {
+ background: #f2f2f2;
+}
+::selection {
+ background: #f2f2f2;
+}
+/*リードモア*/
+a.more:after {
+	content:"\00BB";
+	font-weight:bold;
+}
+
+

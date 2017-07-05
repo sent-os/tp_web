@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.s4, .s5 {
+	padding-top: 60px;
+}
+
+/* トップ ------------------------------------------------*/
+
+#top_contents #event_wrap {
+	width: 100%;
+}
+#top_contents #event_wrap .member_wrap_05 {
+	clear: both;
+	margin: 0 -10px;
+}
+#top_contents #event_wrap .member_wrap_05 li {
+	margin-bottom: 30px;
+	color: #EF8585;
+}
+#top_contents #event_wrap .member_wrap_05 li .katagaki {
+	font-size: 10px;
+	line-height: 1.7em;
+}
+
+/* 主な活動 ---------------------------------------------*/
+
+.local_activity ul {
+	padding-left: 35px;
+}
+.local_activity #s4 {
+	border-left: none;
+}
+.local_activity #s1 {
+	border-left: 1px solid #f4afb3;
+    width: 174px;
+    background-position: -522px -60px;
+}
+.local_activity #s1:hover,
+.local_activity #s1_li .active {
+    background-position: -522px -90px;
+}
+.local_activity #s2 {
+    width: 174px;
+    background-position: -696px -60px;
+}
+.local_activity #s2:hover,
+.local_activity #s2_li .active {
+    background-position: -696px -90px;
+}
+#activity03 {
+	padding-top: 80px;
+}
+#activity04,
+#activity05 {
+	padding-top: 60px;
+}
+.activity_section {
+	padding-top: 0;
+}
+
+
+/* 啓発イベント -----------------------------------------*/
+
+.member_wrap_03_l {
+  margin: 0 auto;
+  width: 472px;
+}
+#event_wrap .member_wrap_03_l ul li {
+  float: left;
+  width: 210px;
+  margin-left: 13px;
+  margin-right: 13px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#event_wrap .member_wrap_03_l ul li img {
+  margin-bottom: 15px;
+}
+.member_wrap_05 {
+  margin: 0 -86px;
+  width: 860px;
+}
+#event_wrap .member_wrap_05 ul li {
+  float: left;
+  width: 146px;
+  margin-left: 13px;
+  margin-right: 13px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#event_wrap .member_wrap_05 ul li img {
+  margin-bottom: 15px;
+}

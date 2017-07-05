@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* =====================================================================
+*    0. Bace Color
+*    ---
+*         cont96 Green 200%     #116D0A
+*         ---
+*         Link BG-Color         #FFFF66
+*         Form BG-Color         #FFFFCC
+*    ---
+* =================================================================== */
+
+/* =====================================================================
+*
+*    0. Common Item
+*
+* =================================================================== */
+
+
+/* basic format
+--------------------------------------------------------------------- */
+
+.dottedimg        { background: url(../images/bg_dotline.gif) 0 0 repeat-x; width: 100%; height: 1px; }
+::selection       { background-color: #F2F2F2; /* Safari */ }
+::-moz-selection  { background-color: #F2F2F2; /* Firefox */ }
+
+
+
+
+/* common style
+--------------------------------------------------------------------- */
+.ma_5 {margin-bottom: 5px !important;}
+.ma_10 {margin-bottom: 10px !important;}
+.ma_15 {margin-bottom: 15px !important;}
+.ma_20 {margin-bottom: 20px !important;}
+.ma_30 {margin-bottom: 30px !important;}
+.ma_40 {margin-bottom: 40px !important;}
+.ma_50 {margin-bottom: 50px !important;}
+.ma_60 {margin-bottom: 60px !important;}
+.ma_70 {margin-bottom: 70px !important;}
+.ma_80 {margin-bottom: 80px !important;}
+.ma_90 {margin-bottom: 90px !important;}
+.ma_100 {margin-bottom: 100px !important;}
+.ma_110 {margin-bottom: 110px !important;}
+
+.ma_300 {margin-bottom: 300px !important;}
+
+/* =====================================================================
+*
+*    2. Center Area
+*
+* =================================================================== */
+
+
+.twin #center h1         { padding: 20px 0 25px; }
+.twin #center h1 a       { color: #116D0A; padding: 6px 9px 6px 0; }
+.twin #center h1 a:hover { color: #FFFF00; padding: 6px 9px; background-color: #FF0000;}
+
+
+.a_center{
+	text-align: center;
+}
+.a_left{
+	text-align: left;
+}
+.a_right{
+	text-align: right;
+}
+.f_left {
+	float: left;
+}
+.indent{
+text-indent:-0.5em;
+}

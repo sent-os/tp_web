@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* =======================================
+
+	Header CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+ 	1.Description
+	
+	2.Site Title
+	
+	3.Header Navi
+
+========================================== */
+
+#header {
+	position: relative;
+	padding: 10px 7px 10px 3px;
+	zoom: 1;
+}
+
+
+/* 1.Description
+========================================== */
+#header p#description {
+	position: absolute;
+	top: 10px;
+	left: 380px;
+	width: 300px;
+	zoom: 1;
+	font-size:100%;
+	text-align:right;
+	z-index:5;
+}
+
+
+/* 2.Site Title
+========================================== */
+#header h1#siteTitle {
+}
+
+#header h1#siteTitle a {
+}
+
+
+/* 3.Header Navi
+========================================== */
+#header ul#headerNavi {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 220px;
+	zoom: 1;
+}
+#header ul#headerNavi:after { /* for Modern Browser */
+	content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
+}
+
+#header ul#headerNavi li {
+	float: left;
+	display: inline;
+	height:20px;
+}
+#header ul#headerNavi li.item01 {
+	width: 80px;
+}
+
+#header ul#headerNavi li.item02 {
+	width: 110px;
+}
+
+#header ul#headerNavi li a {
+	display: block;
+	background: #FFF;
+}
+#header ul#headerNavi li.item01 a {background-position:    0  0;}
+#header ul#headerNavi li.item02 a {background-position: -59px 0;}
+
+#header ul#headerNavi li a:hover {
+	background-color: transparent;
+}
+

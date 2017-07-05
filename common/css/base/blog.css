@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* =======================================
+
+	page CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+	1.concept
+	
+	2.CorpName
+	
+	3.Copyright
+
+========================================== */
+
+
+/* 1.blog
+========================================== */
+div#blogSidbar h4 {
+	background: url(../../img/dot.gif) bottom repeat-x;
+	line-height:200%;
+}
+
+div#blogSidbar ul li {
+	line-height:200%;
+	color:#333;
+	font-size:11px;
+	text-indent:5px;
+	padding:5px 0 0px;
+}
+
+div#blogSidbar ul li a,a:visited,a:link,a:active {
+	line-height:200%;
+	color:#333;
+	font-size:11px;
+}
+
+div#blogSidbar ul li a:hover {
+	line-height:200%;
+	color:#eee;
+	font-size:11px;
+}
+
+div#blogSidbar div div {
+	margin-bottom:30px;
+}
+
+div#blogSidbar table {
+	margin-top:10px;
+	width: 90%;
+	text-align: center;
+}
+
+div#blogSidbar table th,td {
+	padding:5px;
+	text-align:center;
+}
+
+div#blogSidbar #search {
+	margin-top:10px;
+	height:12px;
+}
+
+
+div#blogMain h4 dl dt {
+	background: url(../../img/dot.gif) bottom repeat-x;
+	line-height:200%;
+	margin-top:10px;
+	font-size:14px;
+}
+
+div#blogMain h4 dl dd {
+	line-height:150%;
+	margin-top:10px;
+	font-size:10px;
+	font-weight:normal;
+}
+
+div#blogMain h4 dl dt a {
+	line-height:200%;
+	margin-top:10px;
+	font-size:14px;
+}
+
+div#blogMain div {
+	margin-bottom:70px;
+}
+
+div#blogMain p {
+	margin:10px;
+}
+
+div#blogMainCate h4 {
+	background: url(../../img/dot.gif) bottom repeat-x;
+	line-height:200%;
+	margin-top:10px;
+	font-size:14px;
+}
+
+div#blogMainCate h4 a {
+	line-height:200%;
+	margin-top:10px;
+	font-size:14px;
+}
+
+div#blogMainCate div {
+	margin-bottom:70px;
+}
+
+div#blogMainCate p {
+	margin:10px;
+}
+

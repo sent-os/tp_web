@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/* =======================================
+
+	Navigation CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+	1.Localnavi
+	
+	2.Banners
+
+========================================== */
+
+#navigation {
+	margin-bottom:20px;
+}
+
+
+/* 1.Localnavi
+========================================== */
+#navigation dl#localnavi {
+	background: #fff;
+}
+
+#navigation dl#localnavi dt {
+}
+
+#navigation dl#localnavi dd {
+	background:#fbe2e0;
+	padding:10px;
+}
+
+#navigation dl#localnavi dd li {
+	font-size:120%;
+}
+
+#navigation dl#localnavi dd li.titile {
+	color:#ca6962;
+	font-size:140%;
+}
+
+#navigation dl#localnavi dd li a {
+	color:#666;
+}
+
+
+/* 2.Banners
+========================================== */
+#navigation ul#banners {
+	margin-top:20px;
+}
+
+#navigation ul#banners li {
+}
+
+
+#sideZip {
+	background:url(../../img/sideBg.gif) repeat-y;
+}
+
+#sideZip dl {
+	padding:10px;
+	margin-bottom:20px;
+}
+
+#sideZip dl dt {
+	font-size:120%;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+#sideZip dl dd {
+	font-size:100%;
+}
+
+
+
+
+#search_side {
+	margin:0px 0 10px;
+	zoom: 1;
+	background:#f1f0e7;
+}
+
+
+#search_side ul#search_side_area {
+	padding: 10px 10px 10px;
+	zoom: 1;
+}
+
+#search_side ul#search_side_area:after { /* for Modern Browser */
+	content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
+}
+
+#search_side ul#search_side_area li {
+	font-size: 90%;
+	line-height: 1.167;
+}
+
+#search_side ul#search_side_area li.first {
+	width:160px;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#search_side ul#search_side_area li.second {
+	width:160px;
+	margin-top: 10px;
+	padding-left: 0;
+}
+
+#search_side ul#search_side_area li.third {
+	margin-top: 10px;
+	padding-left: 0;
+}
+
+#search_side ul#search_side_area li.third dl {
+	width:160px;
+}
+
+#search_side ul#search_side_area li.third dl dt {
+}
+
+#search_side ul#search_side_area li.third dl dd {
+	font-size:100%;
+}
+
+
+#search_side ul#search_side_area li a {
+	color: #000000;
+	text-decoration: underline;
+}
+
+#search_side ul#search_side_area li a:hover {
+	text-decoration: none;
+}
+
+

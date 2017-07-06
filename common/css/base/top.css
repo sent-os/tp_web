@@ -81,7 +81,7 @@
 	padding-top:5px;
 }
 
-.topicList:after@{ /* for Modern Browser */
+.topicList:afterï¿½@{ /* for Modern Browser */
 	content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
 }
 

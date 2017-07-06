@@ -73,3 +73,15 @@
 .indent{
 text-indent:-0.5em;
 }
+
+#submit {
+  width:50px;
+  font-size:12px;
+  text-decoration:none;
+  display:block;
+  text-align:center;
+  padding:6px 0 6px;
+  color:#fff;
+  background-color:#f4afb3;
+  border-radius:3px;
+}

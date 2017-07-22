@@ -78,13 +78,10 @@
 		
 	</div>
 	<div id="contents">
-		<div class="section s1">
+		<div class="section s1" style="margin-top:-100px">
 			<div id="addmission_wrap">
-
-				
-
 				<div class="nyuukai">
-					<h6 class="indent ma_15">
+					<h6 class="indent">
 						［個人会員入会お申込み］
 					</h6>
 					<p class="mid ma_30">
@@ -94,41 +91,31 @@
 						ここに入会案内の文面が入ります。<br />
 						ここに入会案内の文面が入ります。<br />
 						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
-						ここに入会案内の文面が入ります。<br />
+
 
 					</p>
 					
 				</div>
 
-
 				<form class="mid ma_30">
-					<table>
+					<table class="regist">
 						<tr>
-							<td>お名前 <span class="required">※</span></td>
+							<td class="item">お名前 <span class="required">※</span></td>
 							<td><input type="text" /></td>
 						</tr>
 						<tr>
-							<td>フリガナ <span class="required">※</span></td>
+							<td class="item">フリガナ <span class="required">※</span></td>
 							<td><input type="text" /></td>
 						</tr>
 						<tr>
-							<td>性別 <span class="required">※</span></td>
+							<td class="item">性別 <span class="required">※</span></td>
 							<td>
 								<input type="radio" name="sex" value="male">男性
 								<input type="radio" name="sex" value="female">女性
 							</td>
 						</tr>
 						<tr>
-							<td>生年月日 <span class="required">※</span></td>
+							<td class="item">生年月日 <span class="required">※</span></td>
 							<td>
 								<select name="select">
 									<option value="1900">1900</option>
@@ -306,7 +293,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>職業 <span class="required">※</span></td>
+							<td class="item">職業 <span class="required">※</span></td>
 							<td>
 								<SELECT name="job">
 									<option value="1" selected>公務員</option>
@@ -321,11 +308,11 @@
 							</td>
 						</tr>
 						<tr>
-							<td>郵便番号 <span class="required">※</span></td>
+							<td class="item">郵便番号 <span class="required">※</span></td>
 							<td><input type="text" size="8"/> - <input type="text" size="15"/></td>
 						</tr>
 						<tr>
-							<td>住所 <span class="required">※</span></td>
+							<td class="item">住所 <span class="required">※</span></td>
 							<td>
 								<select name="pref_id">
 									<option value="1">北海道</option>
@@ -380,19 +367,19 @@
 							</td>
 						</tr>
 						<tr>
-							<td>電話番号 <span class="required">※</span></td>
+							<td class="item">電話番号 <span class="required">※</span></td>
 							<td><input type="text" size="30" /></td>
 						</tr>
 						<tr>
-							<td>メールアドレス <span class="required">※</span></td>
+							<td class="item">メールアドレス <span class="required">※</span></td>
 							<td><input type="text" size="30" /></td>
 						</tr>
 						<tr>
-							<td>メールアドレス確認 <span class="required">※</span></td>
+							<td class="item">メールアドレス確認 <span class="required">※</span></td>
 							<td><input type="text" size="30" /></td>
 						</tr>
 						<tr>
-							<td>ガン経験の有無</td>
+							<td class="item">ガン経験の有無</td>
 							<td>
 								<SELECT name="cancer">
 									<option value="unknown">回答しない</option>
@@ -402,7 +389,10 @@
 						</tr>
 
 					</table>
-					<input type="submit" value="入力内容を確認する" />
+					<div id="submit_btn">
+						<input type="submit" class="regist_btn" value="入力内容を確認する" />
+					</div>
+					
 				</form>
 				
 

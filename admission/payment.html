@@ -78,7 +78,7 @@
 		
 	</div>
 	<div id="contents">
-		<div class="section s1">
+		<div class="section s1" style="margin-top:-100px;">
 			<div id="addmission_wrap">
 
 				
@@ -93,49 +93,72 @@
 						テキストテキストテキストテキストテキストテキストテキスト
 						テキストテキストテキストテキストテキストテキストテキスト
 						テキストテキストテキストテキストテキストテキストテキスト
-					</p>
-					
+					</p>			
 				</div>
+								<form class="mid ma_30">
+					<table class="regist">
+						<tr>
+							<td class="item2">カード番号 <span class="required">※</span></td>
+							<td><input type="text" size="30" /></td>
+						</tr>
+						<tr>
+							<td class="item2">カード名義人 <span class="required">※</span></td>
+							<td><input type="text" size="30" /></td>
+						</tr>
+						<tr>
+							<td class="item2">カード確認番号 <span class="required">※</span></td>
+							<td><input type="text" size="30" /></td>
+						</tr>
+						<tr>
+							<td class="item2">カード有効期限 <span class="required">※</span></td>
+							<td>
+								
+									<SELECT name="month">
+									<option value="1" selected>1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+									</SELECT>
+									月/
+									<select name="select">
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
+									<option value="2020">2020</option>
+									<option value="2021">2021</option>
+									<option value="2022">2022</option>
+									<option value="2023">2023</option>
+									<option value="2024">2024</option>
+									<option value="2025">2025</option>
+									<option value="2026">2026</option>
+									<option value="2027">2027</option>
+									<option value="2028">2028</option>
+									<option value="2029">2029</option>
+									<option value="2030">2030</option>
+									<option value="2031">2031</option>
+									<option value="2032">2032</option>
+									<option value="2033">2033</option>
+									<option value="2034">2034</option>
+									<option value="2035">2035</option>
+									<option value="2036">2036</option>
 
-
-				  <div id="creditcard">
-	<form>
-    <div class="form-group">
-      <label for="cc_number" class="col-sm-2 control-label">カード番号</label>
-      <div class="col-sm-6">
-        <input type="text" class="form-control cc-number alphabet" name="cc_number" id="cc_number" placeholder="0123 4567 8901 2345" required>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="cc-holder" class="col-sm-2 control-label">カード名義人</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control cc-holder alphabet" name="cc_holder" placeholder="TARO YAMADA" required>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="cc-exp" class="col-sm-2 control-label">有効期限</label>
-      <div class="col-sm-3">
-        <input type="text" class="form-control cc-exp alphabet" name="cc-exp" id="cc-exp" pattern="[0-1][0-9][\s\/]*[0-9][0-9]" data-numeric x-autocompletetype="cc-exp" placeholder="MM/YY" required maxlength="7">
-        <span class="help-block"><span class="label label-default">例</span>12 / 05（月 / 年）</span>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="cc-csc" class="col-sm-2 control-label">セキュリティコード</label>
-      <div class="col-sm-3">
-        <input type="text" class="form-control cc-csc alphabet" name="cc-csc" id="cc-csc" pattern="\d{3,4}" placeholder="XXX" data-numeric required maxlength="4">
-        <span class="help-block">カードの裏面にある数桁の数字です</span>
-      </div>
-    </div>
-  
-	<input type="submit" value="会員登録を完了する">
-	</form>
-</div>
-				
-
-
+									</select>
+									年 
+							</td>
+						</tr>
+					</table>
+					<div id="submit_btn">
+					<input type="submit" class="regist_btn" value="年会費のお支払に進む" />
+					</div>
+				</form>
 			</div><!--addmission_wrap-->
 
 

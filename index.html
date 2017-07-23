@@ -83,11 +83,32 @@
 		</div><!--header-->
 	</div><!--header_wrap-->
 
-	<div id="promotion_wrap" class="flexslider">
-		<ul id="promotion" class="slides">
-			<li class="item"><a href="/about/index.html"><img src="/img/top_main.jpg" alt="" width="950" height="405" alt="健康と未来をはぐくむ"></a></li>
-		</ul>
+<div class="swiper-container  data-swiper-autoplay="2000"">
+	<div class="swiper-wrapper  data-swiper-autoplay="2000"">
+	<div class="swiper-slide"　data-swiper-autoplay="2000">
+		<div id="promotion_wrap" class="flexslider">
+			<ul id="promotion" class="slides">
+				<li class="item"><a href="/about/index.html"><img src="/img/top_main.jpg" alt="" width="950" alt="健康と未来をはぐくむ"></a></li>
+			</ul>
+		</div>
 	</div>
+	<div class="swiper-slide  data-swiper-autoplay="2000"">
+		<div id="promotion_wrap" class="flexslider">
+			<ul id="promotion" class="slides">
+				<li class="item"><a href="/admission/index.html"><img src="/img/member.jpg" alt="" width="950" alt="健康と未来をはぐくむ"></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+				    <!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+				    
+<!-- If we need navigation buttons -->
+<!--<div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div>-->
+</div>					
+
+	
 
 
 
@@ -313,5 +334,16 @@
 	</div><!--footer_wrap-->
 </div>
 <p id="page-top"><a href="#wrap"><img src="/_shared/img/top_icn.png" height="46" width="46"></a></p>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+	<script>
+		var mySwiper = new Swiper ('.swiper-container', {
+			effect: "none",
+	    	loop: true,
+		    pagination: '.swiper-pagination',
+			autoplay:3000,
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev',
+	    })
+	</script>
 </body>
 </html>
